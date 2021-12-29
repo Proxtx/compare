@@ -18,7 +18,11 @@ export const compare = (start, end) => {
       }
     }
     if (results.length < 1) {
-      result.push(end[index]);
+      if (typeof result[result.length - 1] == "string") {
+        result[result.length - 1] += end[index];
+      } else {
+        result.push(end[index]);
+      }
       index++;
     } else {
       let compareIndex = 0;
