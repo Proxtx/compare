@@ -21,7 +21,6 @@ export const compare = (start, end) => {
       result.push(end[index]);
       index++;
     } else {
-      console.log(results);
       let compareIndex = 0;
       let maxSize = 0;
       for (let i in results) {
@@ -38,7 +37,6 @@ export const compare = (start, end) => {
 };
 
 export const rebuild = (start, compared) => {
-  console.log(compared);
   let result = "";
   for (let i in compared) {
     result +=
