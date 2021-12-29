@@ -1,0 +1,2 @@
+# compare
+compares strings
