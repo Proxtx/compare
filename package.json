@@ -1,5 +1,5 @@
 {
-  "name": "compare",
+  "name": "@proxtx/compare",
   "version": "1.0.0",
   "description": "compares strings",
   "main": "main.js",
