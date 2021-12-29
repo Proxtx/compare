@@ -1,0 +1,20 @@
+{
+  "name": "compare",
+  "version": "1.0.0",
+  "description": "compares strings",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "test": "nodemon ."
+  },
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Proxtx/compare.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Proxtx/compare/issues"
+  },
+  "homepage": "https://github.com/Proxtx/compare#readme"
+}
