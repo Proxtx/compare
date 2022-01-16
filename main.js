@@ -1,3 +1,9 @@
+/**
+ * Compares the Start String with the End String and finds out the differences
+ * @param {String} start The String that is supposed to morph into the end String
+ * @param {String} end The String that Start is supposed to morph into
+ * @returns A broken down Start String that can be rebuild into the end String with the rebuild function
+ */
 export const compare = (start, end) => {
   let result = [];
   let index = 0;
@@ -40,6 +46,12 @@ export const compare = (start, end) => {
   return result;
 };
 
+/**
+ * Rebuilds the End String from the Start String and the Result of compare
+ * @param {String} start Takes the Start String from compare
+ * @param {Array} compared The result of compare
+ * @returns The End String
+ */
 export const rebuild = (start, compared) => {
   let result = "";
   for (let i in compared) {
